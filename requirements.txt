@@ -1,1 +1,2 @@
 -e git+https://github.com/tyiannak/pyAudioAnalysis.git@ffb9c501e21c134dad50d985c899aa356937c470#egg=pyAudioAnalysis
+jupyter
