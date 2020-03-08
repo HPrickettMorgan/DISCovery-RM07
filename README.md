@@ -13,3 +13,18 @@ Prototype code for RM07 Praxis II design project.
        jupyter notebook
 
 You should now be able to view and modify all the jupyter notebooks in the project.
+
+## Troubleshooting Installation
+If imports complain about not being able to find `libmagic` or `ffmpeg` you may need to install those dependencies.
+
+### On Mac OS X
+1. Install the hombrew package manager:
+    
+       /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+2. If you are missing `libmagic`:
+ 
+       brew install libmagic
+     
+3. If you are missing `ffmpeg`:
+ 
+       brew install ffmpeg
